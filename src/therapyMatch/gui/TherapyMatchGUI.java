@@ -25,11 +25,11 @@ public class TherapyMatchGUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
 
-        // Create main panel with padding
+        //main panel with padding
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
         mainPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Top panel - System info
+        //top panel 
         JPanel topPanel = new JPanel(new BorderLayout());
         JLabel titleLabel = new JLabel(" Psychiatrist Matching System", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
