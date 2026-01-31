@@ -64,7 +64,7 @@ public class ClientAgent extends Agent {
                 if (msg != null) {
 
                     if (msg.getPerformative() == ACLMessage.INFORM) {
-                        // Successful match
+                        //successful match
                         try {
                             AppointmentSchedule appointment = (AppointmentSchedule) msg.getContentObject();
                             System.out.println("\n" + getLocalName() + " MATCHED!");
